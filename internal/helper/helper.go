@@ -7,11 +7,11 @@ type ResponseModel struct {
 	Data       interface{}
 }
 
-func SetResponse(statusCode, message, error string, data interface{}) ResponseModel {
+func SetResponse(statusCode, message, err string, data interface{}) ResponseModel {
 	respData := ResponseModel{
 		StatusCode: statusCode,
 		Message:    message,
-		Error:      error,
+		Error:      err,
 		Data:       data,
 	}
 
