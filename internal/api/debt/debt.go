@@ -1,4 +1,4 @@
-package api
+package internal
 
 type DebtModel struct {
 	ID          string
