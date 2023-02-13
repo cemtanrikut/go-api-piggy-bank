@@ -1,5 +1,13 @@
 package api
 
+type UserModel struct {
+	ID       string
+	Name     string
+	Surname  string
+	Password string
+	IsActive string
+}
+
 // Create an user
 func Create() {
 
