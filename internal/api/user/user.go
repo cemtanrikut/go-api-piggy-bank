@@ -9,7 +9,7 @@ type UserModel struct {
 }
 
 // Create an user
-func Create() {
+func Create(user UserModel) {
 
 }
 
@@ -24,7 +24,7 @@ func GetList() {
 }
 
 // Update user
-func Update() {
+func Update(user UserModel) {
 
 }
 
